@@ -1,0 +1,10 @@
+__pycache__/
+.vscode/
+.ipynb_checkpoints/
+.jupyter/
+.vscode-jupyter/
+target/
+logs/
+spark-warehouse/
+eventlog/
+*.log

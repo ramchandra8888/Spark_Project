@@ -1,0 +1,7 @@
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.appName("TIPS").getOrCreate()
+
+
+data=spark.read.csv("tips.csv", header=True, inferSchema=True)
+data.printSchema()
+data.show(10)
